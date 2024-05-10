@@ -2,7 +2,12 @@
 export default {
   content: ['/index.html', './**/*.{html,js}'],
   theme: {
-    extend: {},
+    extend: {
+      lineHeight: {
+        'extra-loose': '2.5',
+        12: '3rem',
+      },
+    },
   },
   plugins: [],
 }
